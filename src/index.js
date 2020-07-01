@@ -75,8 +75,8 @@ function printSinglyLinkedList(node, sep, ws) {
  */
 let myArray = [];
 
-**************************************
-********* This is the Exercise *******
+/* **************************************
+********* This is the Exercise *********/
     
 function insertNodeAtPosition(head, data, position) {
     let newHead = head;
@@ -94,8 +94,8 @@ function insertNodeAtPosition(head, data, position) {
     return head;
 }
 
-**************************************
-**************************************
+/***************************************
+***************************************/
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
